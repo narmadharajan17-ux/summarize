@@ -93,5 +93,6 @@ def summarize():
         return f"<h3>Error: {e}</h3>"
 
 
-if __name__ == "__main__":
-    app.run(debug=True)
+# if __name__ == "__main__":
+#     app.run(debug=True)
+app = app
